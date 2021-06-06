@@ -1,0 +1,11 @@
+﻿main.obj : error LNK2019: 未解決の外部シンボル "struct _LEAP_CONNECTION * * __cdecl OpenConnection(void)" (?OpenConnection@@YAPEAPEAU_LEAP_CONNECTION@@XZ) が関数 main で参照されました
+    定義済みの一致する可能性があるシンボルに関するヒント:
+      OpenConnection
+main.obj : error LNK2019: 未解決の外部シンボル "void __cdecl DestroyConnection(void)" (?DestroyConnection@@YAXXZ) が関数 main で参照されました
+    定義済みの一致する可能性があるシンボルに関するヒント:
+      DestroyConnection
+main.obj : error LNK2001: 外部シンボル "struct Callbacks ConnectionCallbacks" (?ConnectionCallbacks@@3UCallbacks@@A) は未解決です
+    定義済みの一致する可能性があるシンボルに関するヒント:
+      ConnectionCallbacks
+Springhead16.0Dx64.lib(FWRegisterTypeDesc.obj) : error LNK2019: 未解決の外部シンボル "void __cdecl Spr::RegisterTypeDescFWOldSpringhead(struct Spr::UTTypeDescDbIf *)" (?RegisterTypeDescFWOldSpringhead@Spr@@YAXPEAUUTTypeDescDbIf@1@@Z) が関数 "void __cdecl Spr::FWRegisterTypeDescs(void)" (?FWRegisterTypeDescs@Spr@@YAXXZ) で参照されました
+C:\Users\hiran\Source\Repos\LeapPractice2\Leap_practice\x64\Debug\Leap_practice.exe : fatal error LNK1120: 4 件の未解決の外部参照
